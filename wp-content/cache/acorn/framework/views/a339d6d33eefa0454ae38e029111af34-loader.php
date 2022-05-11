@@ -1,0 +1,2 @@
+<?= \Roots\view('partials.comments', $data ?? get_defined_vars())->render(); ?>
+<?php /**PATH C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views/partials/comments.blade.php ENDPATH**/ ?>

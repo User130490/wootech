@@ -1,0 +1,280 @@
+2022-05-08T12:07:06+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Illuminate\View\ViewException: syntax error, unexpected token "}" (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\testimonials-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ParseError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php στην γραμμή 15
+
+2022-05-08T12:14:04+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected token "." in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:13
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Illuminate\View\ViewException: syntax error, unexpected token "." (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\testimonials-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:13
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ParseError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php στην γραμμή 13
+
+2022-05-08T12:14:17+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Illuminate\View\ViewException: syntax error, unexpected token "}" (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\testimonials-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ParseError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php στην γραμμή 14
+
+2022-05-08T12:15:09+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Illuminate\View\ViewException: syntax error, unexpected token "}" (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\testimonials-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ParseError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php στην γραμμή 14
+
+2022-05-08T12:15:11+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Illuminate\View\ViewException: syntax error, unexpected token "}" (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\testimonials-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ParseError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php στην γραμμή 14
+
+2022-05-08T12:15:41+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected identifier "dd" in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Illuminate\View\ViewException: syntax error, unexpected identifier "dd" (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\testimonials-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ParseError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php στην γραμμή 14
+
+2022-05-08T12:15:47+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Illuminate\View\ViewException: syntax error, unexpected token "}" (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\testimonials-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ParseError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php στην γραμμή 15
+
+2022-05-08T12:16:10+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Illuminate\View\ViewException: syntax error, unexpected token "}" (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\testimonials-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ParseError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php στην γραμμή 15
+
+2022-05-08T12:16:37+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Illuminate\View\ViewException: syntax error, unexpected token "}" (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\testimonials-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ParseError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php στην γραμμή 15
+
+2022-05-08T13:02:18+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected token "." in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Illuminate\View\ViewException: syntax error, unexpected token "." (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\testimonials-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ParseError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\dce8b7bd804e5436a3620a91f75b1d8acc683b67.php στην γραμμή 23
+

@@ -1,0 +1,113 @@
+2022-05-10T07:05:05+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected token "}" in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\bb5a61823096b8e0be048cd82f5ae4388b85f9de.php:141
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Illuminate\View\ViewException: syntax error, unexpected token "}" (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\homepage-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\bb5a61823096b8e0be048cd82f5ae4388b85f9de.php:141
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ParseError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\bb5a61823096b8e0be048cd82f5ae4388b85f9de.php στην γραμμή 141
+
+2022-05-10T07:10:51+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in C:\xampp\htdocs\wordpress\wp-content\plugins\advanced-custom-fields-pro\includes\class-acf-data.php:127
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\advanced-custom-fields-pro\includes\local-fields.php(456): ACF_Data->is(Array)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\advanced-custom-fields-pro\includes\local-fields.php(542): acf_is_local_field_key(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): _acf_apply_is_local_field_key(false, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(189): WP_Hook->apply_filters(false, Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\advanced-custom-fields-pro\includes\acf-field-functions.php(197): apply_filters('acf/is_field_ke...', false, Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(147): acf_is_field_key(Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(26): acf_maybe_get_field(Array, 'options')
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php(77): get_field(Array, 'options', true)
+#8 C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\bb5a61823096b8e0be048cd82f5ae4388b85f9de.php(140): the_field(Array, 'option')
+#9 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(107): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#11 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#13 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#14 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#15 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#16 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#17 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+
+Next Illuminate\View\ViewException: Illegal offset type in isset or empty (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\homepage-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\plugins\advanced-custom-fields-pro\includes\class-acf-data.php:127
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(TypeError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\plugins\advanced-custom-fields-pro\includes\class-acf-data.php στην γραμμή 127
+
+2022-05-10T08:14:52+00:00 CRITICAL Uncaught ParseError: syntax error, unexpected token "=", expecting "->" or "?->" or "{" or "[" in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\bb5a61823096b8e0be048cd82f5ae4388b85f9de.php:335
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+
+Next Illuminate\View\ViewException: syntax error, unexpected token "=", expecting "->" or "?->" or "{" or "[" (View: C:\xampp\htdocs\wordpress\wp-content\themes\wootech\resources\views\homepage-template.blade.php) in C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\bb5a61823096b8e0be048cd82f5ae4388b85f9de.php:335
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(60): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ParseError), 1)
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\CompilerEngine.php(61): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\CompilerEngine->get('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(14): Illuminate\View\View->render()
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\cache\acorn\framework\views\bb5a61823096b8e0be048cd82f5ae4388b85f9de.php στην γραμμή 335
+
+2022-05-10T16:18:32+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in C:\xampp\htdocs\wordpress\wp-content\themes\wootech\woocommerce\content-product.php:35
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template.php(772): require()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(107): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\filesystem\Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\Engines\PhpEngine.php(38): Illuminate\View\Engines\PhpEngine->evaluatePath('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(139): Illuminate\View\Engines\PhpEngine->get('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(122): Illuminate\View\View->getContents()
+#9 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\vendor\illuminate\view\View.php(91): Illuminate\View\View->renderContents()
+#10 C:\xampp\htdocs\wordpress\wp-content\themes\wootech\index.php(15): Illuminate\View\View->render()
+#11 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown μέσα στο C:\xampp\htdocs\wordpress\wp-content\themes\wootech\woocommerce\content-product.php στην γραμμή 35
+
