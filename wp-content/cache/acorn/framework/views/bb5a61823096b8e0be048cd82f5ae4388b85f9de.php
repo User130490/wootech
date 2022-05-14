@@ -337,7 +337,7 @@
 						<div class="flex items-center justify-center lg:justify-start p-6 lg:pl-0 grayscale hover:grayscale-0" data-aos="fade-up" data-aos-duration="1000">
 							<img src="<?php echo e($partner["partner_logo"]["url"]); ?>" width="<?php echo e($partner["partner_logo"]["width"]); ?>" height="<?php echo e($partner["partner_logo"]["height"]); ?>" alt="<?php echo e($partner["partner_logo"]["title"]); ?>">
 						</div>
-					<?php elseif($key === count($partners)): ?>
+					<?php elseif($key === count($partners)-1): ?>
 						<div class="flex items-center justify-center lg:justify-end p-6 lg:pr-0 grayscale hover:grayscale-0" data-aos="fade-up" data-aos-duration="1000">
 							<img src="<?php echo e($partner["partner_logo"]["url"]); ?>" width="<?php echo e($partner["partner_logo"]["width"]); ?>" height="<?php echo e($partner["partner_logo"]["height"]); ?>" alt="<?php echo e($partner["partner_logo"]["title"]); ?>">
 						</div>

@@ -339,7 +339,7 @@
 						<div class="flex items-center justify-center lg:justify-start p-6 lg:pl-0 grayscale hover:grayscale-0" data-aos="fade-up" data-aos-duration="1000">
 							<img src="{{$partner["partner_logo"]["url"]}}" width="{{$partner["partner_logo"]["width"]}}" height="{{$partner["partner_logo"]["height"]}}" alt="{{$partner["partner_logo"]["title"]}}">
 						</div>
-					@elseif ($key === count($partners))
+					@elseif ($key === count($partners)-1)
 						<div class="flex items-center justify-center lg:justify-end p-6 lg:pr-0 grayscale hover:grayscale-0" data-aos="fade-up" data-aos-duration="1000">
 							<img src="{{$partner["partner_logo"]["url"]}}" width="{{$partner["partner_logo"]["width"]}}" height="{{$partner["partner_logo"]["height"]}}" alt="{{$partner["partner_logo"]["title"]}}">
 						</div>
